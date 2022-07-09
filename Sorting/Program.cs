@@ -10,7 +10,8 @@ namespace Sorting
             //new BubbleSort().sort(arr);
             //new SelectionSort().sort(arr);
             //new InsertionSort().sort(arr);
-            new MergeSort().sort(arr);
+            //new MergeSort().sort(arr);
+            new QuickSort().sort(arr);
             Console.WriteLine(String.Join(',', arr));
         }
     }

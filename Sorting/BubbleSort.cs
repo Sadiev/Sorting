@@ -4,6 +4,11 @@ using System.Text;
 
 namespace Sorting
 {
+    //              Best        Worst
+    //Passes        O(1)        O(n)
+    //Comparisons   O(n)        O(n)
+    //Total         O(n)        O(n^2)
+    //              Linear      Quadratic
     class BubbleSort
     {
         public void sort(int[] arr)

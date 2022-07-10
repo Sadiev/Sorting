@@ -6,12 +6,13 @@ namespace Sorting
     {
         static void Main(string[] args)
         {
-            var arr = new int[]{8, 5, 3, 6, 1, 3, 9, 2};
+            var arr = new int[]{8, 5, 3, 6, 1, 3, 9, 2, 22, 15};
             //new BubbleSort().sort(arr);
             //new SelectionSort().sort(arr);
             //new InsertionSort().sort(arr);
             //new MergeSort().sort(arr);
-            new QuickSort().sort(arr);
+            //new QuickSort().sort(arr);
+            new CountSort().sort(arr);
             Console.WriteLine(String.Join(',', arr));
         }
     }
